@@ -1,0 +1,1648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21267D6123EBA37600C2895B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21267D6023EBA37600C2895B /* AppDelegate.swift */; };
+		21267D6323EBA37600C2895B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21267D6223EBA37600C2895B /* SceneDelegate.swift */; };
+		21267D6523EBA37600C2895B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21267D6423EBA37600C2895B /* ViewController.swift */; };
+		21267D6823EBA37600C2895B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21267D6623EBA37600C2895B /* Main.storyboard */; };
+		21267D6A23EBA37900C2895B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21267D6923EBA37900C2895B /* Assets.xcassets */; };
+		21267D6D23EBA37900C2895B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21267D6B23EBA37900C2895B /* LaunchScreen.storyboard */; };
+		21267D7823EBA37A00C2895B /* AnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21267D7723EBA37A00C2895B /* AnalyticsTests.swift */; };
+		21267D9023EBA3B700C2895B /* AnalyticsTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21267D8723EBA3B700C2895B /* AnalyticsTracker.framework */; };
+		21267D9723EBA3B700C2895B /* AnalyticsTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21267D9623EBA3B700C2895B /* AnalyticsTrackerTests.swift */; };
+		21267D9923EBA3B700C2895B /* AnalyticsTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 21267D8923EBA3B700C2895B /* AnalyticsTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21267D9C23EBA3B700C2895B /* AnalyticsTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21267D8723EBA3B700C2895B /* AnalyticsTracker.framework */; };
+		21267D9D23EBA3B700C2895B /* AnalyticsTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21267D8723EBA3B700C2895B /* AnalyticsTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		21267DB323EBA3C800C2895B /* FirebaseTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21267DAA23EBA3C800C2895B /* FirebaseTracker.framework */; };
+		21267DBA23EBA3C800C2895B /* FirebaseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21267DB923EBA3C800C2895B /* FirebaseTrackerTests.swift */; };
+		21267DBC23EBA3C800C2895B /* FirebaseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 21267DAC23EBA3C800C2895B /* FirebaseTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21267DBF23EBA3C800C2895B /* FirebaseTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21267DAA23EBA3C800C2895B /* FirebaseTracker.framework */; };
+		21267DC023EBA3C800C2895B /* FirebaseTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21267DAA23EBA3C800C2895B /* FirebaseTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		21267DC823EBA3E600C2895B /* AnalyticsTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21267DC723EBA3E600C2895B /* AnalyticsTracker.swift */; };
+		21267DCA23EBA40200C2895B /* FirebaseTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21267DC923EBA40200C2895B /* FirebaseTracker.swift */; };
+		21267DD923EBA44C00C2895B /* MixpanelTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21267DD023EBA44C00C2895B /* MixpanelTracker.framework */; };
+		21267DE023EBA44C00C2895B /* MixpanelTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21267DDF23EBA44C00C2895B /* MixpanelTrackerTests.swift */; };
+		21267DE223EBA44C00C2895B /* MixpanelTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 21267DD223EBA44C00C2895B /* MixpanelTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21267DE523EBA44C00C2895B /* MixpanelTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21267DD023EBA44C00C2895B /* MixpanelTracker.framework */; };
+		21267DE623EBA44C00C2895B /* MixpanelTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21267DD023EBA44C00C2895B /* MixpanelTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		21267E1023EBA49400C2895B /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21267E0F23EBA49400C2895B /* Analytics.swift */; };
+		21267E1F23EBA4F900C2895B /* GoogleAnalyticsTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21267E1623EBA4F900C2895B /* GoogleAnalyticsTracker.framework */; };
+		21267E2623EBA4F900C2895B /* GoogleAnalyticsTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21267E2523EBA4F900C2895B /* GoogleAnalyticsTrackerTests.swift */; };
+		21267E2823EBA4F900C2895B /* GoogleAnalyticsTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 21267E1823EBA4F900C2895B /* GoogleAnalyticsTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21267E2B23EBA4F900C2895B /* GoogleAnalyticsTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21267E1623EBA4F900C2895B /* GoogleAnalyticsTracker.framework */; };
+		21267E2C23EBA4F900C2895B /* GoogleAnalyticsTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21267E1623EBA4F900C2895B /* GoogleAnalyticsTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		21267E3423EBA53500C2895B /* GoogleAnalyticsTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21267E3323EBA53500C2895B /* GoogleAnalyticsTracker.swift */; };
+		21BE94D823EBBB1D0064A10D /* Mixpanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE94D723EBBB1D0064A10D /* Mixpanel.swift */; };
+		21FC4F0C23EDCA8B00ADE1DF /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC4F0B23EDCA8B00ADE1DF /* Current.swift */; };
+		21FC4F0E23EDD53600ADE1DF /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC4F0D23EDD53600ADE1DF /* Environment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21267D7423EBA37900C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267D5C23EBA37600C2895B;
+			remoteInfo = Analytics;
+		};
+		21267D9123EBA3B700C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267D8623EBA3B700C2895B;
+			remoteInfo = AnalyticsTracker;
+		};
+		21267D9323EBA3B700C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267D5C23EBA37600C2895B;
+			remoteInfo = Analytics;
+		};
+		21267D9A23EBA3B700C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267D8623EBA3B700C2895B;
+			remoteInfo = AnalyticsTracker;
+		};
+		21267DB423EBA3C800C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267DA923EBA3C800C2895B;
+			remoteInfo = FirebaseTracker;
+		};
+		21267DB623EBA3C800C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267D5C23EBA37600C2895B;
+			remoteInfo = Analytics;
+		};
+		21267DBD23EBA3C800C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267DA923EBA3C800C2895B;
+			remoteInfo = FirebaseTracker;
+		};
+		21267DDA23EBA44C00C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267DCF23EBA44C00C2895B;
+			remoteInfo = MixpanelTracker;
+		};
+		21267DDC23EBA44C00C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267D5C23EBA37600C2895B;
+			remoteInfo = Analytics;
+		};
+		21267DE323EBA44C00C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267DCF23EBA44C00C2895B;
+			remoteInfo = MixpanelTracker;
+		};
+		21267E2023EBA4F900C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267E1523EBA4F900C2895B;
+			remoteInfo = GoogleAnalyticsTracker;
+		};
+		21267E2223EBA4F900C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267D5C23EBA37600C2895B;
+			remoteInfo = Analytics;
+		};
+		21267E2923EBA4F900C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267E1523EBA4F900C2895B;
+			remoteInfo = GoogleAnalyticsTracker;
+		};
+		21267E3523EBAEE300C2895B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21267D5523EBA37600C2895B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21267E1523EBA4F900C2895B;
+			remoteInfo = GoogleAnalyticsTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		21267DA123EBA3B700C2895B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				21267DC023EBA3C800C2895B /* FirebaseTracker.framework in Embed Frameworks */,
+				21267DE623EBA44C00C2895B /* MixpanelTracker.framework in Embed Frameworks */,
+				21267E2C23EBA4F900C2895B /* GoogleAnalyticsTracker.framework in Embed Frameworks */,
+				21267D9D23EBA3B700C2895B /* AnalyticsTracker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		21267D5D23EBA37600C2895B /* Analytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Analytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21267D6023EBA37600C2895B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21267D6223EBA37600C2895B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21267D6423EBA37600C2895B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21267D6723EBA37600C2895B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21267D6923EBA37900C2895B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21267D6C23EBA37900C2895B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21267D6E23EBA37900C2895B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21267D7323EBA37900C2895B /* AnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21267D7723EBA37A00C2895B /* AnalyticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsTests.swift; sourceTree = "<group>"; };
+		21267D7923EBA37A00C2895B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21267D8723EBA3B700C2895B /* AnalyticsTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnalyticsTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21267D8923EBA3B700C2895B /* AnalyticsTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalyticsTracker.h; sourceTree = "<group>"; };
+		21267D8A23EBA3B700C2895B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21267D8F23EBA3B700C2895B /* AnalyticsTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalyticsTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21267D9623EBA3B700C2895B /* AnalyticsTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsTrackerTests.swift; sourceTree = "<group>"; };
+		21267D9823EBA3B700C2895B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21267DAA23EBA3C800C2895B /* FirebaseTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirebaseTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21267DAC23EBA3C800C2895B /* FirebaseTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirebaseTracker.h; sourceTree = "<group>"; };
+		21267DAD23EBA3C800C2895B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21267DB223EBA3C800C2895B /* FirebaseTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21267DB923EBA3C800C2895B /* FirebaseTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTrackerTests.swift; sourceTree = "<group>"; };
+		21267DBB23EBA3C800C2895B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21267DC723EBA3E600C2895B /* AnalyticsTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsTracker.swift; sourceTree = "<group>"; };
+		21267DC923EBA40200C2895B /* FirebaseTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTracker.swift; sourceTree = "<group>"; };
+		21267DD023EBA44C00C2895B /* MixpanelTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MixpanelTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21267DD223EBA44C00C2895B /* MixpanelTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixpanelTracker.h; sourceTree = "<group>"; };
+		21267DD323EBA44C00C2895B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21267DD823EBA44C00C2895B /* MixpanelTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixpanelTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21267DDF23EBA44C00C2895B /* MixpanelTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixpanelTrackerTests.swift; sourceTree = "<group>"; };
+		21267DE123EBA44C00C2895B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21267E0F23EBA49400C2895B /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		21267E1623EBA4F900C2895B /* GoogleAnalyticsTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleAnalyticsTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21267E1823EBA4F900C2895B /* GoogleAnalyticsTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleAnalyticsTracker.h; sourceTree = "<group>"; };
+		21267E1923EBA4F900C2895B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21267E1E23EBA4F900C2895B /* GoogleAnalyticsTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleAnalyticsTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21267E2523EBA4F900C2895B /* GoogleAnalyticsTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAnalyticsTrackerTests.swift; sourceTree = "<group>"; };
+		21267E2723EBA4F900C2895B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21267E3323EBA53500C2895B /* GoogleAnalyticsTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAnalyticsTracker.swift; sourceTree = "<group>"; };
+		21BE94D723EBBB1D0064A10D /* Mixpanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mixpanel.swift; sourceTree = "<group>"; };
+		21FC4F0B23EDCA8B00ADE1DF /* Current.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
+		21FC4F0D23EDD53600ADE1DF /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21267D5A23EBA37600C2895B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267DBF23EBA3C800C2895B /* FirebaseTracker.framework in Frameworks */,
+				21267DE523EBA44C00C2895B /* MixpanelTracker.framework in Frameworks */,
+				21267E2B23EBA4F900C2895B /* GoogleAnalyticsTracker.framework in Frameworks */,
+				21267D9C23EBA3B700C2895B /* AnalyticsTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267D7023EBA37900C2895B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267D8423EBA3B700C2895B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267D8C23EBA3B700C2895B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267D9023EBA3B700C2895B /* AnalyticsTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DA723EBA3C800C2895B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DAF23EBA3C800C2895B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267DB323EBA3C800C2895B /* FirebaseTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DCD23EBA44C00C2895B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DD523EBA44C00C2895B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267DD923EBA44C00C2895B /* MixpanelTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267E1323EBA4F900C2895B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267E1B23EBA4F900C2895B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267E1F23EBA4F900C2895B /* GoogleAnalyticsTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21267D5423EBA37600C2895B = {
+			isa = PBXGroup;
+			children = (
+				21267D5F23EBA37600C2895B /* Analytics */,
+				21267D7623EBA37A00C2895B /* AnalyticsTests */,
+				21267D8823EBA3B700C2895B /* AnalyticsTracker */,
+				21267D9523EBA3B700C2895B /* AnalyticsTrackerTests */,
+				21267DAB23EBA3C800C2895B /* FirebaseTracker */,
+				21267DB823EBA3C800C2895B /* FirebaseTrackerTests */,
+				21267DD123EBA44C00C2895B /* MixpanelTracker */,
+				21267DDE23EBA44C00C2895B /* MixpanelTrackerTests */,
+				21267E1723EBA4F900C2895B /* GoogleAnalyticsTracker */,
+				21267E2423EBA4F900C2895B /* GoogleAnalyticsTrackerTests */,
+				21267D5E23EBA37600C2895B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21267D5E23EBA37600C2895B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21267D5D23EBA37600C2895B /* Analytics.app */,
+				21267D7323EBA37900C2895B /* AnalyticsTests.xctest */,
+				21267D8723EBA3B700C2895B /* AnalyticsTracker.framework */,
+				21267D8F23EBA3B700C2895B /* AnalyticsTrackerTests.xctest */,
+				21267DAA23EBA3C800C2895B /* FirebaseTracker.framework */,
+				21267DB223EBA3C800C2895B /* FirebaseTrackerTests.xctest */,
+				21267DD023EBA44C00C2895B /* MixpanelTracker.framework */,
+				21267DD823EBA44C00C2895B /* MixpanelTrackerTests.xctest */,
+				21267E1623EBA4F900C2895B /* GoogleAnalyticsTracker.framework */,
+				21267E1E23EBA4F900C2895B /* GoogleAnalyticsTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21267D5F23EBA37600C2895B /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				21267D6023EBA37600C2895B /* AppDelegate.swift */,
+				21267D6223EBA37600C2895B /* SceneDelegate.swift */,
+				21267D6423EBA37600C2895B /* ViewController.swift */,
+				21FC4F0B23EDCA8B00ADE1DF /* Current.swift */,
+				21267E0F23EBA49400C2895B /* Analytics.swift */,
+				21267D6623EBA37600C2895B /* Main.storyboard */,
+				21267D6923EBA37900C2895B /* Assets.xcassets */,
+				21267D6B23EBA37900C2895B /* LaunchScreen.storyboard */,
+				21267D6E23EBA37900C2895B /* Info.plist */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		21267D7623EBA37A00C2895B /* AnalyticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				21267D7723EBA37A00C2895B /* AnalyticsTests.swift */,
+				21267D7923EBA37A00C2895B /* Info.plist */,
+			);
+			path = AnalyticsTests;
+			sourceTree = "<group>";
+		};
+		21267D8823EBA3B700C2895B /* AnalyticsTracker */ = {
+			isa = PBXGroup;
+			children = (
+				21267D8923EBA3B700C2895B /* AnalyticsTracker.h */,
+				21267DC723EBA3E600C2895B /* AnalyticsTracker.swift */,
+				21267D8A23EBA3B700C2895B /* Info.plist */,
+			);
+			path = AnalyticsTracker;
+			sourceTree = "<group>";
+		};
+		21267D9523EBA3B700C2895B /* AnalyticsTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				21267D9623EBA3B700C2895B /* AnalyticsTrackerTests.swift */,
+				21267D9823EBA3B700C2895B /* Info.plist */,
+			);
+			path = AnalyticsTrackerTests;
+			sourceTree = "<group>";
+		};
+		21267DAB23EBA3C800C2895B /* FirebaseTracker */ = {
+			isa = PBXGroup;
+			children = (
+				21267DAC23EBA3C800C2895B /* FirebaseTracker.h */,
+				21267DC923EBA40200C2895B /* FirebaseTracker.swift */,
+				21267DAD23EBA3C800C2895B /* Info.plist */,
+			);
+			path = FirebaseTracker;
+			sourceTree = "<group>";
+		};
+		21267DB823EBA3C800C2895B /* FirebaseTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				21267DB923EBA3C800C2895B /* FirebaseTrackerTests.swift */,
+				21267DBB23EBA3C800C2895B /* Info.plist */,
+			);
+			path = FirebaseTrackerTests;
+			sourceTree = "<group>";
+		};
+		21267DD123EBA44C00C2895B /* MixpanelTracker */ = {
+			isa = PBXGroup;
+			children = (
+				21267DD223EBA44C00C2895B /* MixpanelTracker.h */,
+				21BE94D723EBBB1D0064A10D /* Mixpanel.swift */,
+				21267DD323EBA44C00C2895B /* Info.plist */,
+			);
+			path = MixpanelTracker;
+			sourceTree = "<group>";
+		};
+		21267DDE23EBA44C00C2895B /* MixpanelTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				21267DDF23EBA44C00C2895B /* MixpanelTrackerTests.swift */,
+				21267DE123EBA44C00C2895B /* Info.plist */,
+			);
+			path = MixpanelTrackerTests;
+			sourceTree = "<group>";
+		};
+		21267E1723EBA4F900C2895B /* GoogleAnalyticsTracker */ = {
+			isa = PBXGroup;
+			children = (
+				21267E1823EBA4F900C2895B /* GoogleAnalyticsTracker.h */,
+				21FC4F0D23EDD53600ADE1DF /* Environment.swift */,
+				21267E3323EBA53500C2895B /* GoogleAnalyticsTracker.swift */,
+				21267E1923EBA4F900C2895B /* Info.plist */,
+			);
+			path = GoogleAnalyticsTracker;
+			sourceTree = "<group>";
+		};
+		21267E2423EBA4F900C2895B /* GoogleAnalyticsTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				21267E2523EBA4F900C2895B /* GoogleAnalyticsTrackerTests.swift */,
+				21267E2723EBA4F900C2895B /* Info.plist */,
+			);
+			path = GoogleAnalyticsTrackerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21267D8223EBA3B700C2895B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267D9923EBA3B700C2895B /* AnalyticsTracker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DA523EBA3C800C2895B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267DBC23EBA3C800C2895B /* FirebaseTracker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DCB23EBA44C00C2895B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267DE223EBA44C00C2895B /* MixpanelTracker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267E1123EBA4F900C2895B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267E2823EBA4F900C2895B /* GoogleAnalyticsTracker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21267D5C23EBA37600C2895B /* Analytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21267D7C23EBA37A00C2895B /* Build configuration list for PBXNativeTarget "Analytics" */;
+			buildPhases = (
+				21267D5923EBA37600C2895B /* Sources */,
+				21267D5A23EBA37600C2895B /* Frameworks */,
+				21267D5B23EBA37600C2895B /* Resources */,
+				21267DA123EBA3B700C2895B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21267D9B23EBA3B700C2895B /* PBXTargetDependency */,
+				21267DBE23EBA3C800C2895B /* PBXTargetDependency */,
+				21267DE423EBA44C00C2895B /* PBXTargetDependency */,
+				21267E2A23EBA4F900C2895B /* PBXTargetDependency */,
+			);
+			name = Analytics;
+			productName = Analytics;
+			productReference = 21267D5D23EBA37600C2895B /* Analytics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21267D7223EBA37900C2895B /* AnalyticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21267D7F23EBA37A00C2895B /* Build configuration list for PBXNativeTarget "AnalyticsTests" */;
+			buildPhases = (
+				21267D6F23EBA37900C2895B /* Sources */,
+				21267D7023EBA37900C2895B /* Frameworks */,
+				21267D7123EBA37900C2895B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21267D7523EBA37900C2895B /* PBXTargetDependency */,
+			);
+			name = AnalyticsTests;
+			productName = AnalyticsTests;
+			productReference = 21267D7323EBA37900C2895B /* AnalyticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21267D8623EBA3B700C2895B /* AnalyticsTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21267D9E23EBA3B700C2895B /* Build configuration list for PBXNativeTarget "AnalyticsTracker" */;
+			buildPhases = (
+				21267D8223EBA3B700C2895B /* Headers */,
+				21267D8323EBA3B700C2895B /* Sources */,
+				21267D8423EBA3B700C2895B /* Frameworks */,
+				21267D8523EBA3B700C2895B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnalyticsTracker;
+			productName = AnalyticsTracker;
+			productReference = 21267D8723EBA3B700C2895B /* AnalyticsTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		21267D8E23EBA3B700C2895B /* AnalyticsTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21267DA223EBA3B700C2895B /* Build configuration list for PBXNativeTarget "AnalyticsTrackerTests" */;
+			buildPhases = (
+				21267D8B23EBA3B700C2895B /* Sources */,
+				21267D8C23EBA3B700C2895B /* Frameworks */,
+				21267D8D23EBA3B700C2895B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21267D9223EBA3B700C2895B /* PBXTargetDependency */,
+				21267D9423EBA3B700C2895B /* PBXTargetDependency */,
+			);
+			name = AnalyticsTrackerTests;
+			productName = AnalyticsTrackerTests;
+			productReference = 21267D8F23EBA3B700C2895B /* AnalyticsTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21267DA923EBA3C800C2895B /* FirebaseTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21267DC123EBA3C800C2895B /* Build configuration list for PBXNativeTarget "FirebaseTracker" */;
+			buildPhases = (
+				21267DA523EBA3C800C2895B /* Headers */,
+				21267DA623EBA3C800C2895B /* Sources */,
+				21267DA723EBA3C800C2895B /* Frameworks */,
+				21267DA823EBA3C800C2895B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21267E3623EBAEE300C2895B /* PBXTargetDependency */,
+			);
+			name = FirebaseTracker;
+			productName = FirebaseTracker;
+			productReference = 21267DAA23EBA3C800C2895B /* FirebaseTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		21267DB123EBA3C800C2895B /* FirebaseTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21267DC423EBA3C800C2895B /* Build configuration list for PBXNativeTarget "FirebaseTrackerTests" */;
+			buildPhases = (
+				21267DAE23EBA3C800C2895B /* Sources */,
+				21267DAF23EBA3C800C2895B /* Frameworks */,
+				21267DB023EBA3C800C2895B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21267DB523EBA3C800C2895B /* PBXTargetDependency */,
+				21267DB723EBA3C800C2895B /* PBXTargetDependency */,
+			);
+			name = FirebaseTrackerTests;
+			productName = FirebaseTrackerTests;
+			productReference = 21267DB223EBA3C800C2895B /* FirebaseTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21267DCF23EBA44C00C2895B /* MixpanelTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21267DE723EBA44C00C2895B /* Build configuration list for PBXNativeTarget "MixpanelTracker" */;
+			buildPhases = (
+				21267DCB23EBA44C00C2895B /* Headers */,
+				21267DCC23EBA44C00C2895B /* Sources */,
+				21267DCD23EBA44C00C2895B /* Frameworks */,
+				21267DCE23EBA44C00C2895B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixpanelTracker;
+			productName = MixpanelTracker;
+			productReference = 21267DD023EBA44C00C2895B /* MixpanelTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		21267DD723EBA44C00C2895B /* MixpanelTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21267DEA23EBA44C00C2895B /* Build configuration list for PBXNativeTarget "MixpanelTrackerTests" */;
+			buildPhases = (
+				21267DD423EBA44C00C2895B /* Sources */,
+				21267DD523EBA44C00C2895B /* Frameworks */,
+				21267DD623EBA44C00C2895B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21267DDB23EBA44C00C2895B /* PBXTargetDependency */,
+				21267DDD23EBA44C00C2895B /* PBXTargetDependency */,
+			);
+			name = MixpanelTrackerTests;
+			productName = MixpanelTrackerTests;
+			productReference = 21267DD823EBA44C00C2895B /* MixpanelTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21267E1523EBA4F900C2895B /* GoogleAnalyticsTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21267E2D23EBA4F900C2895B /* Build configuration list for PBXNativeTarget "GoogleAnalyticsTracker" */;
+			buildPhases = (
+				21267E1123EBA4F900C2895B /* Headers */,
+				21267E1223EBA4F900C2895B /* Sources */,
+				21267E1323EBA4F900C2895B /* Frameworks */,
+				21267E1423EBA4F900C2895B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleAnalyticsTracker;
+			productName = GoogleAnalyticsTracker;
+			productReference = 21267E1623EBA4F900C2895B /* GoogleAnalyticsTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		21267E1D23EBA4F900C2895B /* GoogleAnalyticsTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21267E3023EBA4F900C2895B /* Build configuration list for PBXNativeTarget "GoogleAnalyticsTrackerTests" */;
+			buildPhases = (
+				21267E1A23EBA4F900C2895B /* Sources */,
+				21267E1B23EBA4F900C2895B /* Frameworks */,
+				21267E1C23EBA4F900C2895B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21267E2123EBA4F900C2895B /* PBXTargetDependency */,
+				21267E2323EBA4F900C2895B /* PBXTargetDependency */,
+			);
+			name = GoogleAnalyticsTrackerTests;
+			productName = GoogleAnalyticsTrackerTests;
+			productReference = 21267E1E23EBA4F900C2895B /* GoogleAnalyticsTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21267D5523EBA37600C2895B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "AJ Bartocci";
+				TargetAttributes = {
+					21267D5C23EBA37600C2895B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					21267D7223EBA37900C2895B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 21267D5C23EBA37600C2895B;
+					};
+					21267D8623EBA3B700C2895B = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					21267D8E23EBA3B700C2895B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					21267DA923EBA3C800C2895B = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					21267DB123EBA3C800C2895B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					21267DCF23EBA44C00C2895B = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					21267DD723EBA44C00C2895B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					21267E1523EBA4F900C2895B = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					21267E1D23EBA4F900C2895B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 21267D5823EBA37600C2895B /* Build configuration list for PBXProject "Analytics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21267D5423EBA37600C2895B;
+			productRefGroup = 21267D5E23EBA37600C2895B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21267D5C23EBA37600C2895B /* Analytics */,
+				21267D7223EBA37900C2895B /* AnalyticsTests */,
+				21267D8623EBA3B700C2895B /* AnalyticsTracker */,
+				21267D8E23EBA3B700C2895B /* AnalyticsTrackerTests */,
+				21267DA923EBA3C800C2895B /* FirebaseTracker */,
+				21267DB123EBA3C800C2895B /* FirebaseTrackerTests */,
+				21267DCF23EBA44C00C2895B /* MixpanelTracker */,
+				21267DD723EBA44C00C2895B /* MixpanelTrackerTests */,
+				21267E1523EBA4F900C2895B /* GoogleAnalyticsTracker */,
+				21267E1D23EBA4F900C2895B /* GoogleAnalyticsTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21267D5B23EBA37600C2895B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267D6D23EBA37900C2895B /* LaunchScreen.storyboard in Resources */,
+				21267D6A23EBA37900C2895B /* Assets.xcassets in Resources */,
+				21267D6823EBA37600C2895B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267D7123EBA37900C2895B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267D8523EBA3B700C2895B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267D8D23EBA3B700C2895B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DA823EBA3C800C2895B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DB023EBA3C800C2895B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DCE23EBA44C00C2895B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DD623EBA44C00C2895B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267E1423EBA4F900C2895B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267E1C23EBA4F900C2895B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21267D5923EBA37600C2895B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267D6523EBA37600C2895B /* ViewController.swift in Sources */,
+				21267D6123EBA37600C2895B /* AppDelegate.swift in Sources */,
+				21267E1023EBA49400C2895B /* Analytics.swift in Sources */,
+				21FC4F0C23EDCA8B00ADE1DF /* Current.swift in Sources */,
+				21267D6323EBA37600C2895B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267D6F23EBA37900C2895B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267D7823EBA37A00C2895B /* AnalyticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267D8323EBA3B700C2895B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267DC823EBA3E600C2895B /* AnalyticsTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267D8B23EBA3B700C2895B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267D9723EBA3B700C2895B /* AnalyticsTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DA623EBA3C800C2895B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267DCA23EBA40200C2895B /* FirebaseTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DAE23EBA3C800C2895B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267DBA23EBA3C800C2895B /* FirebaseTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DCC23EBA44C00C2895B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BE94D823EBBB1D0064A10D /* Mixpanel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267DD423EBA44C00C2895B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267DE023EBA44C00C2895B /* MixpanelTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267E1223EBA4F900C2895B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267E3423EBA53500C2895B /* GoogleAnalyticsTracker.swift in Sources */,
+				21FC4F0E23EDD53600ADE1DF /* Environment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21267E1A23EBA4F900C2895B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21267E2623EBA4F900C2895B /* GoogleAnalyticsTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21267D7523EBA37900C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267D5C23EBA37600C2895B /* Analytics */;
+			targetProxy = 21267D7423EBA37900C2895B /* PBXContainerItemProxy */;
+		};
+		21267D9223EBA3B700C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267D8623EBA3B700C2895B /* AnalyticsTracker */;
+			targetProxy = 21267D9123EBA3B700C2895B /* PBXContainerItemProxy */;
+		};
+		21267D9423EBA3B700C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267D5C23EBA37600C2895B /* Analytics */;
+			targetProxy = 21267D9323EBA3B700C2895B /* PBXContainerItemProxy */;
+		};
+		21267D9B23EBA3B700C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267D8623EBA3B700C2895B /* AnalyticsTracker */;
+			targetProxy = 21267D9A23EBA3B700C2895B /* PBXContainerItemProxy */;
+		};
+		21267DB523EBA3C800C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267DA923EBA3C800C2895B /* FirebaseTracker */;
+			targetProxy = 21267DB423EBA3C800C2895B /* PBXContainerItemProxy */;
+		};
+		21267DB723EBA3C800C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267D5C23EBA37600C2895B /* Analytics */;
+			targetProxy = 21267DB623EBA3C800C2895B /* PBXContainerItemProxy */;
+		};
+		21267DBE23EBA3C800C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267DA923EBA3C800C2895B /* FirebaseTracker */;
+			targetProxy = 21267DBD23EBA3C800C2895B /* PBXContainerItemProxy */;
+		};
+		21267DDB23EBA44C00C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267DCF23EBA44C00C2895B /* MixpanelTracker */;
+			targetProxy = 21267DDA23EBA44C00C2895B /* PBXContainerItemProxy */;
+		};
+		21267DDD23EBA44C00C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267D5C23EBA37600C2895B /* Analytics */;
+			targetProxy = 21267DDC23EBA44C00C2895B /* PBXContainerItemProxy */;
+		};
+		21267DE423EBA44C00C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267DCF23EBA44C00C2895B /* MixpanelTracker */;
+			targetProxy = 21267DE323EBA44C00C2895B /* PBXContainerItemProxy */;
+		};
+		21267E2123EBA4F900C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267E1523EBA4F900C2895B /* GoogleAnalyticsTracker */;
+			targetProxy = 21267E2023EBA4F900C2895B /* PBXContainerItemProxy */;
+		};
+		21267E2323EBA4F900C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267D5C23EBA37600C2895B /* Analytics */;
+			targetProxy = 21267E2223EBA4F900C2895B /* PBXContainerItemProxy */;
+		};
+		21267E2A23EBA4F900C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267E1523EBA4F900C2895B /* GoogleAnalyticsTracker */;
+			targetProxy = 21267E2923EBA4F900C2895B /* PBXContainerItemProxy */;
+		};
+		21267E3623EBAEE300C2895B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21267E1523EBA4F900C2895B /* GoogleAnalyticsTracker */;
+			targetProxy = 21267E3523EBAEE300C2895B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21267D6623EBA37600C2895B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21267D6723EBA37600C2895B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21267D6B23EBA37900C2895B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21267D6C23EBA37900C2895B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21267D7A23EBA37A00C2895B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21267D7B23EBA37A00C2895B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21267D7D23EBA37A00C2895B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25NQ367WU2;
+				INFOPLIST_FILE = Analytics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.Analytics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21267D7E23EBA37A00C2895B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25NQ367WU2;
+				INFOPLIST_FILE = Analytics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.Analytics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21267D8023EBA37A00C2895B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalyticsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.AnalyticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Analytics.app/Analytics";
+			};
+			name = Debug;
+		};
+		21267D8123EBA37A00C2895B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalyticsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.AnalyticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Analytics.app/Analytics";
+			};
+			name = Release;
+		};
+		21267D9F23EBA3B700C2895B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AnalyticsTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.AnalyticsTracker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21267DA023EBA3B700C2895B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AnalyticsTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.AnalyticsTracker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21267DA323EBA3B700C2895B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalyticsTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.AnalyticsTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21267DA423EBA3B700C2895B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalyticsTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.AnalyticsTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21267DC223EBA3C800C2895B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FirebaseTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.FirebaseTracker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21267DC323EBA3C800C2895B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FirebaseTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.FirebaseTracker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21267DC523EBA3C800C2895B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirebaseTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.FirebaseTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21267DC623EBA3C800C2895B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirebaseTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.FirebaseTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21267DE823EBA44C00C2895B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MixpanelTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.MixpanelTracker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21267DE923EBA44C00C2895B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MixpanelTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.MixpanelTracker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21267DEB23EBA44C00C2895B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MixpanelTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.MixpanelTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21267DEC23EBA44C00C2895B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MixpanelTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.MixpanelTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21267E2E23EBA4F900C2895B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GoogleAnalyticsTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.GoogleAnalyticsTracker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21267E2F23EBA4F900C2895B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GoogleAnalyticsTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.GoogleAnalyticsTracker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21267E3123EBA4F900C2895B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleAnalyticsTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.GoogleAnalyticsTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21267E3223EBA4F900C2895B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleAnalyticsTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajbartocci.GoogleAnalyticsTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21267D5823EBA37600C2895B /* Build configuration list for PBXProject "Analytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21267D7A23EBA37A00C2895B /* Debug */,
+				21267D7B23EBA37A00C2895B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21267D7C23EBA37A00C2895B /* Build configuration list for PBXNativeTarget "Analytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21267D7D23EBA37A00C2895B /* Debug */,
+				21267D7E23EBA37A00C2895B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21267D7F23EBA37A00C2895B /* Build configuration list for PBXNativeTarget "AnalyticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21267D8023EBA37A00C2895B /* Debug */,
+				21267D8123EBA37A00C2895B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21267D9E23EBA3B700C2895B /* Build configuration list for PBXNativeTarget "AnalyticsTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21267D9F23EBA3B700C2895B /* Debug */,
+				21267DA023EBA3B700C2895B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21267DA223EBA3B700C2895B /* Build configuration list for PBXNativeTarget "AnalyticsTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21267DA323EBA3B700C2895B /* Debug */,
+				21267DA423EBA3B700C2895B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21267DC123EBA3C800C2895B /* Build configuration list for PBXNativeTarget "FirebaseTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21267DC223EBA3C800C2895B /* Debug */,
+				21267DC323EBA3C800C2895B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21267DC423EBA3C800C2895B /* Build configuration list for PBXNativeTarget "FirebaseTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21267DC523EBA3C800C2895B /* Debug */,
+				21267DC623EBA3C800C2895B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21267DE723EBA44C00C2895B /* Build configuration list for PBXNativeTarget "MixpanelTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21267DE823EBA44C00C2895B /* Debug */,
+				21267DE923EBA44C00C2895B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21267DEA23EBA44C00C2895B /* Build configuration list for PBXNativeTarget "MixpanelTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21267DEB23EBA44C00C2895B /* Debug */,
+				21267DEC23EBA44C00C2895B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21267E2D23EBA4F900C2895B /* Build configuration list for PBXNativeTarget "GoogleAnalyticsTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21267E2E23EBA4F900C2895B /* Debug */,
+				21267E2F23EBA4F900C2895B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21267E3023EBA4F900C2895B /* Build configuration list for PBXNativeTarget "GoogleAnalyticsTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21267E3123EBA4F900C2895B /* Debug */,
+				21267E3223EBA4F900C2895B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21267D5523EBA37600C2895B /* Project object */;
+}
