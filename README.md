@@ -17,8 +17,11 @@ I then added an example test to the app target to demostrate how easy it is to t
 Interesting files to look at: 
 
 AnalyticsTracker.swift: https://github.com/aj-bartocci/AnalyticsTrackingExample/blob/master/AnalyticsTracker/AnalyticsTracker.swift
+
 Analytics.swift: https://github.com/aj-bartocci/AnalyticsTrackingExample/blob/master/Analytics/Analytics.swift
+
 AnalyticsTests.swift: https://github.com/aj-bartocci/AnalyticsTrackingExample/blob/master/AnalyticsTests/AnalyticsTests.swift
 
 GoogleAnalyticsTracker.swift: https://github.com/aj-bartocci/AnalyticsTrackingExample/blob/master/GoogleAnalyticsTracker/GoogleAnalyticsTracker.swift
+
 GoogleAnalyticsTrackerTests.swift: https://github.com/aj-bartocci/AnalyticsTrackingExample/blob/master/GoogleAnalyticsTrackerTests/GoogleAnalyticsTrackerTests.swift
